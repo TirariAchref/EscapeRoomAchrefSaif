@@ -224,6 +224,6 @@ public class GameManager : MonoBehaviour
     }
     public void RestartGame()
     {
-        SceneManager.LoadScene("ARSlingshotGame");
+        SceneManager.LoadScene("EscapeRoomAchrefSaif");
     }
 }
