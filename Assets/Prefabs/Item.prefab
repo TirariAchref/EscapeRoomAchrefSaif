@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2209469318925297079}
   - component: {fileID: 6563190817044178811}
   m_Layer: 0
-  m_Name: Pikachu
+  m_Name: Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 930020917617554605}
   m_Father: {fileID: 0}
@@ -138,9 +139,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2350124703801319226, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
+      propertyPath: m_Name
+      value: Item
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
       propertyPath: m_Name
-      value: PikachuF@Running
+      value: Item@Running
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571339500971323406, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
+      propertyPath: m_Name
+      value: pm0025_00_Item
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
       propertyPath: m_Controller
@@ -150,6 +159,10 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8596055108742088102, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -4465783125971242680, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9b94a39fdfff5d46a14b26f17fc5670, type: 3}
 --- !u!4 &930020917617554605 stripped
